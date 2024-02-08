@@ -1,0 +1,41 @@
+CLASSE CANETA
+modelo: Caractere
+cor: Caractere
+ponta: Real
+carga: Inteiro
+tampada: Lógico
+
+Metodo rabiscar()
+  Se (tampada) então
+    Escreva ('ERRO')
+  senão
+    Escreva ('RABISCO')
+  FimSe
+ 
+ FimMetodo
+ Metodo tampar()
+  tampada = verdadeiro
+ Fim Metodo
+FimClasse
+__________________________________________________________________________
+c1 = nova Caneta
+c1.cor = 'Azul'
+c1.ponta = 0,5
+c1.tampada = falso
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
